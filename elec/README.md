@@ -16,7 +16,7 @@ It handles:
 - Navigation calculations
 - Communication with the motor controller
 
-<img width="350" alt="raspberry_pi" src="IMAGE">
+<img width="655" height="468" alt="raspberrypi4bimg" src="https://github.com/user-attachments/assets/0de325c4-8aff-4621-ba53-301a315b03ae" />
 
 ---
 
@@ -29,7 +29,7 @@ The ESP32 is responsible for:
 - Servo steering control
 - Receiving commands from the Raspberry Pi through serial communication
 
-<img width="350" alt="esp32" src="IMAGE">
+<img width="350" height="280" alt="esp32img" src="https://github.com/user-attachments/assets/75667778-47bf-4933-977f-898c77f49e07" />
 
 ---
 
