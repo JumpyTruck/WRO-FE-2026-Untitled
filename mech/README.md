@@ -49,13 +49,13 @@ This design was chosen because it provides smoother cornering and better durabil
 
 ---
 
-### 1.4 Chassis Dimensions
+### 1.4 Design Inspiration & Chassis Dimensions
 
-Multiple chassis layouts were tested using LEGO prototypes to determine the optimal size for fitting components such as the Raspberry Pi, custom PCB, DC motor, battery, and sensors.
+Before designing our chassis, we explored different vehicle layouts and proportions through sketches and concept drawings. We took inspiration from Formula One cars, focusing on a longer and narrower body design to improve stability and create smoother, more controlled turning.
 
-The final chassis was designed to be compact while maintaining balanced weight distribution. Inspired by Formula One cars, we used a larger length-to-width ratio to increase the turning radius, resulting in smoother and more controlled cornering.
+The overall dimensions were chosen to maintain a compact design while providing enough space for essential components such as the Raspberry Pi, custom PCB, DC motor, battery, and sensors. This layout helped us achieve a balanced centre of gravity while keeping the robot agile and stable.
 
-<img width="450" alt="chassis_design" src="IMAGE">
+<img width="3024" height="4032" alt="IMG_1527" src="https://github.com/user-attachments/assets/17898f3a-5b99-4380-ab8f-eba7226495c5" />
 
 ---
 
