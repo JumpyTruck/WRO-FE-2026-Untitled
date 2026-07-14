@@ -116,4 +116,4 @@ The final robot combines all mechanical improvements from previous iterations, i
 
 The final design focuses on reliability, balanced weight distribution, and precise movement to perform consistently during the WRO Future Engineers challenge.
 
-<img width="336" height="252" alt="IMG_1967" src="https://github.com/user-attachments/assets/58449e67-de8a-4da6-bb17-5268b6968d68" />
+<img width="252" height="336" alt="IMG_1967" src="https://github.com/user-attachments/assets/0cca0d85-2654-46ef-bd2c-4e263146fa95" />
