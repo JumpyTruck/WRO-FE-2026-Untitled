@@ -3,9 +3,9 @@
 #### 1\. Motorization & Power System
 
 ###### **1.1 DC Motor Selection**
-The DC motor was chosen for its balance of speed and torque, giving the robot enough power to accelerate while staying controllable through turns and obstacle avoidance. It was selected for sufficient torque under load, a compact size that fits the chassis, and efficient power consumption.
+We use a **12V 37D metal gearmotor with an 11PPR encoder**, paired with an **80D wheel kit**, running at **510RPM**. The metal gearbox provides enough torque for reliable acceleration, while the built-in encoder allows precise speed and distance feedback for accurate autonomous control. Its compact 37D size fits neatly within the chassis while still delivering the power and durability needed for consistent performance.
 
-<img width="350" alt="dc_motor" src="IMAGE">
+<img width="215" alt="motorimg" src="https://github.com/user-attachments/assets/7b737ab7-3e7a-44c5-87d2-d31869414b0c" />
 
 ---
 
@@ -24,9 +24,9 @@ The **MG90S** metal-gear servo handles our Ackermann steering. It offers precise
 ---
 
 ###### **1.4 Battery Pack**
-Power comes from a **12.8V battery pack**, sized to comfortably run all electrical components for a full run without a significant voltage drop.
+Power comes from an **IFR 18650 4S1P 12.8V 2000mAh battery pack** (a Lefant/OKP Life replacement pack originally designed for robot vacuums). Its 4S1P configuration gives a stable 12.8V output, and the 2000mAh capacity comfortably powers all electrical components for a full run without a significant voltage drop.
 
-<img width="350" alt="battery_pack" src="IMAGE">
+<img width="220" alt="batteryimg" src="https://github.com/user-attachments/assets/c675d81f-2ac3-4ca7-b616-fff872ef0a64" />
 
 ---
 
