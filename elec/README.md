@@ -23,22 +23,46 @@ The **MG90S** metal-gear servo handles our Ackermann steering. It offers precise
 
 ---
 
-###### **1.4 Battery & Voltage Regulation**
-Power comes from a **12.8V battery pack**. Since components run at different voltages, a **buck converter** steps the battery voltage down to the level each part needs — protecting components from damage and keeping performance consistent during operation.
+###### **1.4 Battery Pack**
+Power comes from a **12.8V battery pack**, sized to comfortably run all electrical components for a full run without a significant voltage drop.
 
-<img width="450" alt="buck_converter" src="IMAGE">
+<img width="350" alt="battery_pack" src="IMAGE">
+
+---
+
+###### **1.5 Buck Converter**
+Since our components run at different voltages, a **buck converter** steps the 12.8V battery voltage down to the level each part needs. This protects components from damage and keeps performance consistent throughout operation.
+
+<img width="350" alt="buck_converter" src="IMAGE">
 
 ---
 
 #### 2\. Electrical Components
 
-###### **2.1 Main Components**
-- **Processing:** A **Raspberry Pi** handles camera input, object/line detection, navigation calculations, and communication with the motor controller.
-- **Motor Control:** An **ESP32** acts as a dedicated motor controller, handling DC motor speed, servo steering, and commands received from the Pi over serial — keeping motor control isolated from image-processing delays.
-- **Custom PCB:** A custom-designed PCB organizes wiring between components for cleaner cable management, reliable connections, a compact fit inside the chassis, and easier debugging.
+###### **2.1 Main Controller: Raspberry Pi**
+The **Raspberry Pi** is our main controller, handling camera input, object and line detection, navigation calculations, and communication with the motor controller.
 
-<img width="218" alt="raspberrypi4bimg" src="https://github.com/user-attachments/assets/0de325c4-8aff-4621-ba53-301a315b03ae">
+<img width="220" alt="raspberrypi4bimg" src="https://github.com/user-attachments/assets/0de325c4-8aff-4621-ba53-301a315b03ae">
+
+---
+
+###### **2.2 Motor Controller: ESP32**
+An **ESP32** acts as a dedicated motor controller, handling DC motor speed and servo steering, and receiving commands from the Pi over serial communication — keeping motor control isolated from delays caused by image processing.
+
 <img width="210" alt="esp32img" src="https://github.com/user-attachments/assets/75667778-47bf-4933-977f-898c77f49e07">
+
+---
+
+###### **2.3 Camera: Raspberry Pi Camera Module 3 Wide**
+The **Raspberry Pi Camera Module 3 Wide** was chosen for its wider field of view, giving the robot better line and object detection coverage during autonomous navigation.
+
+<img width="220" alt="pi_camera_3_wide" src="IMAGE">
+
+---
+
+###### **2.4 Custom PCB**
+A custom-designed PCB organizes wiring between components, giving cleaner cable management, reliable connections, a compact fit inside the chassis, and easier debugging.
+
 <img width="450" alt="custom_pcb" src="IMAGE">
 
 ---
