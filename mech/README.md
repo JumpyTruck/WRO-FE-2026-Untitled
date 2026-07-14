@@ -56,3 +56,64 @@ Multiple chassis layouts were tested using LEGO prototypes to determine the opti
 The final chassis was designed to be compact while maintaining balanced weight distribution. Inspired by Formula One cars, we used a larger length-to-width ratio to increase the turning radius, resulting in smoother and more controlled cornering.
 
 <img width="450" alt="chassis_design" src="IMAGE">
+
+---
+
+# 2. Structural Design Process
+
+After finalizing the main mechanical choices, we developed multiple chassis iterations to optimize component placement, structural strength, and weight distribution. Each version addressed limitations found during testing and gradually improved the overall robot design.
+
+---
+
+## 2.1 Chassis Iteration 1 — Initial Frame Design
+
+The first chassis prototype focused on creating a basic structural frame with mounting points for the main drivetrain components, including the DC motor and steering servo.
+
+However, this design did not include mounting points for the second plate, making it difficult to securely attach additional components such as the Raspberry Pi, custom PCB, and sensors.
+
+**Issue Identified:**
+- No space for standoffs between chassis plates
+- Limited room for future component expansion
+
+<img width="336" height="252" alt="IMG_2297" src="https://github.com/user-attachments/assets/c09e16ee-0dce-4a40-99b6-c4569ce3b0a5" />
+
+---
+
+## 2.2 Chassis Iteration 2 — Expanded Frame Design
+
+The second chassis iteration increased the overall size and added mounting holes for standoffs, allowing a second plate to be attached for electronics mounting.
+
+However, after adding the upper plate, we discovered that there was insufficient space for the battery pack, which affected component placement and weight distribution.
+
+**Issue Identified:**
+- Improved structural support
+- Insufficient space for battery placement
+- Uneven weight distribution due to limited battery positioning
+
+<img width="336" height="252" alt="IMG_2298" src="https://github.com/user-attachments/assets/b72d6ca1-537b-4b37-b571-bb60e22433d7" />
+
+---
+
+## 2.3 Chassis Iteration 3 — Final Optimized Chassis
+
+The final chassis iteration integrated all required components while improving the overall layout and weight distribution.
+
+The motor mount was redesigned with a top opening, allowing the motor to slide into place like a "hat" mount. This simplified assembly while providing a secure connection. The battery pack was positioned in the center of the chassis to evenly distribute weight and maintain a balanced centre of gravity.
+
+**Final Improvements:**
+- Space for all electronics and structural components
+- Improved motor mounting system
+- Centered battery placement for balanced weight distribution
+- Increased stability during acceleration and turning
+
+<img width="336" height="252" alt="IMG_2299" src="https://github.com/user-attachments/assets/d65b5031-916f-4674-9e84-d1f3296ae2f0" />
+
+---
+
+## 2.4 Final Robot Assembly
+
+The final robot combines all mechanical improvements from previous iterations, including the optimized chassis, Ackermann steering system, rear differential, SPIKE Prime wheels, and integrated electronics mounting.
+
+The final design focuses on reliability, balanced weight distribution, and precise movement to perform consistently during the WRO Future Engineers challenge.
+
+<img width="336" height="252" alt="IMG_1967" src="https://github.com/user-attachments/assets/58449e67-de8a-4da6-bb17-5268b6968d68" />
