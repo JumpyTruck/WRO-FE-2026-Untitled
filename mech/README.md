@@ -1,112 +1,49 @@
-# 🛠️ Mechanical Design
+# Mechanical Design Process
 
-This section describes the mechanical design process of our WRO Future Engineers robot. Each component was selected and optimized through testing and iteration to improve reliability, stability, and autonomous performance.
-
----
-
-# 1. Mechanical Design Choices
-
-## 1.1 Wheel Selection
-
-We chose **LEGO SPIKE Prime wheels (56mm diameter, 14mm thickness)** because they provide excellent grip on the WRO competition mat while maintaining an ideal balance between speed, torque, and stability. Their size is optimized for our robot, as they are compact enough to keep the chassis lightweight while still being large enough to provide smooth movement and sufficient ground clearance.
-
-<p align="center">
-<img width="300" src="https://github.com/user-attachments/assets/aed5ae47-584d-46ec-b6de-314e087e4393">
-</p>
+This section outlines the main mechanical decisions made during the development of our WRO Future Engineers robot. Each component was designed and tested to improve reliability, stability, and performance.
 
 ---
 
-## 1.2 Steering System
+## 1. Mechanical Design Choices
 
-### Previous Design: Parallel Beam Steering
+### 1.1 Wheel Selection
 
-Our previous robot used a **parallel beam steering system**, where both front wheels rotated at the same angle. However, this caused drifting during turns because both wheels traveled along the same turning radius, resulting in wheel scrubbing and inaccurate cornering.
+We chose **SPIKE Prime wheels (56mm diameter, 14mm thickness)** because their size provides the ideal balance between speed, torque, and stability. They are compact enough to maintain a lightweight design while still providing sufficient grip and clearance for reliable movement on the WRO mat.
 
-<p align="center">
-<img width="350" src="https://github.com/user-attachments/assets/1a65af16-12c8-4bed-90fe-fb8c90146218">
-</p>
-
-### Current Design: Ackermann Steering
-
-To solve this issue, we implemented an **Ackermann steering system**. This allows the inner and outer wheels to rotate at different angles, allowing each wheel to follow its correct turning radius. This significantly improved turning accuracy and reduced drifting.
-
-<p align="center">
-<img width="350" src="https://github.com/user-attachments/assets/48afcbfe-0fe2-42e0-af9d-fb36e7adf2aa">
-</p>
+<img width="280" height="187" alt="spike_wheels" src="IMAGE">
 
 ---
 
-## 1.3 Rear Differential
+### 1.2 Steering System
 
-The rear drivetrain uses a **metal differential system** to allow the two rear wheels to rotate at different speeds during cornering.
+**Previous Design — Parallel Beam Steering**
 
-We avoided 3D printed gears because they could wear down or break under repeated testing. We also avoided LEGO differential components because they increased the height of the drivetrain and negatively affected the robot's centre of gravity.
+Our previous design used a parallel beam steering mechanism. However, both wheels turned at the same angle, causing drifting because the inner and outer wheels followed different turning paths.
 
-The metal differential provides:
-- Improved cornering stability
-- Reduced wheel slip
-- Better weight distribution
-- Increased drivetrain reliability
+<img width="350" alt="VHRsteering" src="IMAGE">
 
-<p align="center">
-<img width="350" src="IMAGE">
-</p>
+**Final Design — Ackermann Steering**
+
+To improve cornering accuracy, we redesigned the system using Ackermann steering. This allows each front wheel to follow its own turning radius, reducing wheel slip and improving stability.
+
+<img width="350" alt="ackermann_steering" src="IMAGE">
 
 ---
 
-## 1.4 Chassis Dimensions
+### 1.3 Rear Differential
 
-We experimented with different chassis sizes using LEGO prototypes to determine the optimal dimensions required to fit all components, including the Raspberry Pi, custom PCB, DC motor, sensors, and battery.
+A metal differential was used for the rear drivetrain to allow both wheels to rotate at different speeds during turns.
 
-Our goal was to create the smallest possible chassis while:
-- Securely fitting all electronics
-- Maintaining a balanced centre of gravity
-- Leaving enough space for maintenance and wiring
+This design was chosen because it provides smoother cornering and better durability compared to 3D printed gears, while maintaining a lower centre of gravity compared to LEGO-based alternatives.
 
-The design was inspired by **Formula One cars**, using a relatively large length-to-width ratio. This increased the turning radius, allowing smoother and more controlled cornering while improving overall stability.
-
-<p align="center">
-<img width="450" src="IMAGE">
-</p>
+<img width="350" alt="differential" src="IMAGE">
 
 ---
 
-# 2. Mechanical Iteration Process
+### 1.4 Chassis Dimensions
 
-Throughout development, we created multiple prototypes and improved the design based on testing results.
+Multiple chassis layouts were tested using LEGO prototypes to determine the optimal size for fitting components such as the Raspberry Pi, custom PCB, DC motor, battery, and sensors.
 
-| Version | Changes | Purpose |
-|---|---|---|
-| V1 | Initial chassis prototype | Tested component placement |
-| V2 | Adjusted chassis dimensions | Improved weight distribution |
-| V3 | Redesigned steering system | Reduced turning drift |
-| V4 | Added differential drivetrain | Improved cornering performance |
-| Final | Competition chassis | Reliable and optimized design |
+The final chassis was designed to be compact while maintaining balanced weight distribution. Inspired by Formula One cars, we used a larger length-to-width ratio to increase the turning radius, resulting in smoother and more controlled cornering.
 
----
-
-# 3. Final Robot Assembly
-
-<p align="center">
-<img width="500" src="IMAGE">
-</p>
-
-The final mechanical design combines the optimized chassis, Ackermann steering, differential drivetrain, and SPIKE Prime wheels to create a stable and accurate autonomous vehicle.
-
----
-
-# 4. CAD Design
-
-All mechanical components were designed and tested using CAD software before manufacturing.
-
-Included designs:
-- Chassis frame
-- Steering assembly
-- Motor mount
-- Sensor mounts
-- PCB mount
-- Camera mount
-
-<p align="center">
-<img width="500" src="IMAGE">
-</p>
+<img width="450" alt="chassis_design" src="IMAGE">
