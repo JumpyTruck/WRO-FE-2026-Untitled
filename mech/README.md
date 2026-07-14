@@ -67,9 +67,9 @@ After finalizing the main mechanical choices, we developed multiple chassis iter
 
 ## 2.1 Chassis Iteration 1 — Initial Frame Design
 
-The first chassis prototype focused on creating a basic structural frame with mounting points for the main drivetrain components, including the DC motor and steering servo.
+The first chassis prototype focused on creating a basic structural frame with mounting points for the main drivetrain components, including the DC motor and servo motor.
 
-However, this design did not include mounting points for the second plate, making it difficult to securely attach additional components such as the Raspberry Pi, custom PCB, and sensors.
+However, this design did not include mounting points for the second plate, making it difficult to securely attach additional components such as the Raspberry Pi, custom PCB, and camera.
 
 **Issue Identified:**
 - No space for standoffs between chassis plates
