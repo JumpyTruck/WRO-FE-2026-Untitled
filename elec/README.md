@@ -29,7 +29,7 @@ The ESP32 is responsible for:
 - Servo steering control
 - Receiving commands from the Raspberry Pi through serial communication
 
-<img width="350" height="280" alt="esp32img" src="https://github.com/user-attachments/assets/75667778-47bf-4933-977f-898c77f49e07" />
+<img width="210" height="168" alt="esp32img" src="https://github.com/user-attachments/assets/75667778-47bf-4933-977f-898c77f49e07" />
 
 ---
 
