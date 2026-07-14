@@ -56,7 +56,7 @@ An **ESP32** acts as a dedicated motor controller, handling DC motor speed and s
 ###### **2.3 Camera: Raspberry Pi Camera Module 3 Wide**
 The **Raspberry Pi Camera Module 3 Wide** was chosen for its wider field of view, giving the robot better line and object detection coverage during autonomous navigation.
 
-<img width="215" />
+<img width="215" alt="picamimg" src="https://github.com/user-attachments/assets/eea5814d-47b6-4ad2-9bd3-d7ed7dbc0355" />
 
 ---
 
