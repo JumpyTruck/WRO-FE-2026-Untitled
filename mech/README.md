@@ -55,7 +55,7 @@ Before designing our chassis, we explored different vehicle layouts and proporti
 
 The overall dimensions were chosen to maintain a compact design while providing enough space for essential components such as the Raspberry Pi, custom PCB, DC motor, battery, and sensors. This layout helped us achieve a balanced centre of gravity while keeping the robot agile and stable.
 
-<img width="3024" height="4032" alt="IMG_1527" src="https://github.com/user-attachments/assets/17898f3a-5b99-4380-ab8f-eba7226495c5" />
+<img width="252" height="336" alt="IMG_1527" src="https://github.com/user-attachments/assets/17898f3a-5b99-4380-ab8f-eba7226495c5" />
 
 ---
 
