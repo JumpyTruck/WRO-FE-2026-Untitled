@@ -1,21 +1,112 @@
-### Mechanical Design
+# 🛠️ Mechanical Design
 
-### 1\. Basic Mechanical Choices
+This section describes the mechanical design process of our WRO Future Engineers robot. Each component was selected and optimized through testing and iteration to improve reliability, stability, and autonomous performance.
 
-###### **1.1 Wheel Choice**
-We chose Spike Prime wheels (56mm diameter, 14mm thickness) for their excellent grip and compactability on the WRO mat. Their size provides the ideal balance between speed, torque, and stability for our robot as they are neither not too large or small.
-<img width="280" height="187" alt="spike_wheels" src="https://github.com/user-attachments/assets/aed5ae47-584d-46ec-b6de-314e087e4393" />
+---
 
-###### **1.2 Steering System** 
-- **Previously** Last year we used a parallel beam steering (two beams linked at ends) steering system. However, it suffered from drifting during turns due to both wheels turning at the same radius.
-IMAGE GOES HERE
-- **Ackermann Steering:** Ackerman steering system was built to solve drifting.
-IMAGE GOES HERE
+# 1. Mechanical Design Choices
 
-###### **1.3 Differential (Rear Wheels)** 
-We used a differential built out of metal pieces which allowed the rear wheels to turn at different speeds for smooth cornering. Printing our own gears using 3D printer would have made the gears weak and bad quality and using Lego pieces would have made the robots centre of gravity be off. This differential allows the robot's weight to be balanced.
-IMAGE GOES HERE
+## 1.1 Wheel Selection
 
-###### **1.4 Dimensions Choice**
-We experimented with different chassis sizes to determine the space needed for components such as the Raspberry Pi, custom PCB, and DC motor. Our goal was to keep the robot as compact as possible while fitting all components securely and maintaining a balanced centre of gravity. We also took inspiration from Formula 1 cars by using a relatively large length-to-width ratio, which provided a larger turning radius and resulted in smoother, more controlled cornering.
-IMAGE GOES HERE
+We chose **LEGO SPIKE Prime wheels (56mm diameter, 14mm thickness)** because they provide excellent grip on the WRO competition mat while maintaining an ideal balance between speed, torque, and stability. Their size is optimized for our robot, as they are compact enough to keep the chassis lightweight while still being large enough to provide smooth movement and sufficient ground clearance.
+
+<p align="center">
+<img width="300" src="https://github.com/user-attachments/assets/aed5ae47-584d-46ec-b6de-314e087e4393">
+</p>
+
+---
+
+## 1.2 Steering System
+
+### Previous Design: Parallel Beam Steering
+
+Our previous robot used a **parallel beam steering system**, where both front wheels rotated at the same angle. However, this caused drifting during turns because both wheels traveled along the same turning radius, resulting in wheel scrubbing and inaccurate cornering.
+
+<p align="center">
+<img width="350" src="https://github.com/user-attachments/assets/1a65af16-12c8-4bed-90fe-fb8c90146218">
+</p>
+
+### Current Design: Ackermann Steering
+
+To solve this issue, we implemented an **Ackermann steering system**. This allows the inner and outer wheels to rotate at different angles, allowing each wheel to follow its correct turning radius. This significantly improved turning accuracy and reduced drifting.
+
+<p align="center">
+<img width="350" src="https://github.com/user-attachments/assets/48afcbfe-0fe2-42e0-af9d-fb36e7adf2aa">
+</p>
+
+---
+
+## 1.3 Rear Differential
+
+The rear drivetrain uses a **metal differential system** to allow the two rear wheels to rotate at different speeds during cornering.
+
+We avoided 3D printed gears because they could wear down or break under repeated testing. We also avoided LEGO differential components because they increased the height of the drivetrain and negatively affected the robot's centre of gravity.
+
+The metal differential provides:
+- Improved cornering stability
+- Reduced wheel slip
+- Better weight distribution
+- Increased drivetrain reliability
+
+<p align="center">
+<img width="350" src="IMAGE">
+</p>
+
+---
+
+## 1.4 Chassis Dimensions
+
+We experimented with different chassis sizes using LEGO prototypes to determine the optimal dimensions required to fit all components, including the Raspberry Pi, custom PCB, DC motor, sensors, and battery.
+
+Our goal was to create the smallest possible chassis while:
+- Securely fitting all electronics
+- Maintaining a balanced centre of gravity
+- Leaving enough space for maintenance and wiring
+
+The design was inspired by **Formula One cars**, using a relatively large length-to-width ratio. This increased the turning radius, allowing smoother and more controlled cornering while improving overall stability.
+
+<p align="center">
+<img width="450" src="IMAGE">
+</p>
+
+---
+
+# 2. Mechanical Iteration Process
+
+Throughout development, we created multiple prototypes and improved the design based on testing results.
+
+| Version | Changes | Purpose |
+|---|---|---|
+| V1 | Initial chassis prototype | Tested component placement |
+| V2 | Adjusted chassis dimensions | Improved weight distribution |
+| V3 | Redesigned steering system | Reduced turning drift |
+| V4 | Added differential drivetrain | Improved cornering performance |
+| Final | Competition chassis | Reliable and optimized design |
+
+---
+
+# 3. Final Robot Assembly
+
+<p align="center">
+<img width="500" src="IMAGE">
+</p>
+
+The final mechanical design combines the optimized chassis, Ackermann steering, differential drivetrain, and SPIKE Prime wheels to create a stable and accurate autonomous vehicle.
+
+---
+
+# 4. CAD Design
+
+All mechanical components were designed and tested using CAD software before manufacturing.
+
+Included designs:
+- Chassis frame
+- Steering assembly
+- Motor mount
+- Sensor mounts
+- PCB mount
+- Camera mount
+
+<p align="center">
+<img width="500" src="IMAGE">
+</p>
