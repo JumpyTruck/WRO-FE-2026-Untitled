@@ -16,7 +16,7 @@ It handles:
 - Navigation calculations
 - Communication with the motor controller
 
-<img width="655" height="468" alt="raspberrypi4bimg" src="https://github.com/user-attachments/assets/0de325c4-8aff-4621-ba53-301a315b03ae" />
+<img width="218.3" height="156" alt="raspberrypi4bimg" src="https://github.com/user-attachments/assets/0de325c4-8aff-4621-ba53-301a315b03ae" />
 
 ---
 
