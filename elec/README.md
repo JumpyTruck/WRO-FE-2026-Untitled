@@ -3,7 +3,7 @@
 #### 1\. Motorization & Power System
 
 ###### **1.1 DC Motor Selection**
-We use a **12V 37D metal gearmotor with an 11PPR encoder**, paired with an **80D wheel kit**, running at **510RPM**. The metal gearbox provides enough torque for reliable acceleration, while the built-in encoder allows precise speed and distance feedback for accurate autonomous control. Its compact 37D size fits neatly within the chassis while still delivering the power and durability needed for consistent performance.
+We use a **12V 37D metal gearmotor with an 11PPR encoder**, running at **510RPM**. The metal gearbox provides enough torque for reliable acceleration, while the built-in encoder allows precise speed and distance feedback for accurate autonomous control. Its compact 37D size fits neatly within the chassis while still delivering the power and durability needed for consistent performance.
 
 <img width="215" alt="motorimg" src="https://github.com/user-attachments/assets/7b737ab7-3e7a-44c5-87d2-d31869414b0c" />
 
