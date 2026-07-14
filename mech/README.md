@@ -13,20 +13,29 @@ We chose **SPIKE Prime wheels (56mm diameter, 14mm thickness)** because their si
 <img width="280" height="187" alt="spike_wheels" src="https://github.com/user-attachments/assets/873b32bb-68e5-45ca-adc8-cf2fd2dda6f8" />
 
 ---
-
 ### 1.2 Steering System
 
-**Previous Design — Parallel Beam Steering**
+We experimented with different steering mechanisms to improve turning accuracy and reduce drifting.
 
-Our previous design used a parallel beam steering mechanism. However, both wheels turned at the same angle, causing drifting because the inner and outer wheels followed different turning paths.
+<table>
+<tr>
+<td align="center">
+<b>Previous Design — Parallel Beam Steering</b>
+<br><br>
+<img width="220" src="https://github.com/user-attachments/assets/73cccba8-f506-4c5d-ad07-ef9bd6d4d4c9">
+<br><br>
+Both wheels turned at the same angle, causing drifting because the inner and outer wheels followed different turning paths.
+</td>
 
-<img width="252" height="336" alt="VHRsteering" src="https://github.com/user-attachments/assets/73cccba8-f506-4c5d-ad07-ef9bd6d4d4c9" />
-
-**Final Design — Ackermann Steering**
-
-To improve cornering accuracy, we redesigned the system using Ackermann steering. This allows each front wheel to follow its own turning radius, reducing wheel slip and improving stability.
-
-<img width="252" height="336" alt="thisyearsteering" src="https://github.com/user-attachments/assets/56d586ea-e4fe-49f3-8ea5-3422533bf388" />
+<td align="center">
+<b>Final Design — Ackermann Steering</b>
+<br><br>
+<img width="220" src="https://github.com/user-attachments/assets/56d586ea-e4fe-49f3-8ea5-3422533bf388">
+<br><br>
+Each wheel follows its own turning radius, reducing wheel slip and improving cornering accuracy.
+</td>
+</tr>
+</table>
 
 ---
 
