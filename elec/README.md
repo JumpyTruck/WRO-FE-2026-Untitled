@@ -49,7 +49,7 @@ The MG90S provides:
 - Durable metal gears for improved reliability during repeated testing
 - Familiarity from previous projects, reducing integration time
 
-<img width="1287" height="795" alt="servoimg" src="https://github.com/user-attachments/assets/c92c68c5-6e68-4848-8911-8e2b599aeef9" />
+<img width="214.5" height="132.5" alt="servoimg" src="https://github.com/user-attachments/assets/c92c68c5-6e68-4848-8911-8e2b599aeef9" />
 
 ---
 
