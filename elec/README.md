@@ -40,15 +40,16 @@ The motor driver provides:
 
 ## 1.3 Steering Servo
 
-A servo motor was used for the front Ackermann steering system because it provides accurate position control and allows precise steering adjustments during autonomous driving.
+We chose the **MG90S metal gear servo** for our Ackermann steering system because it provides precise angle control, fast response, and enough torque to reliably move the front steering mechanism. Additionally, we had previous experience using the MG90S in earlier projects, allowing us to confidently integrate and tune it for our robot. Its compact size also allowed it to fit within our chassis design while maintaining accurate steering adjustments during autonomous driving.
 
-The servo was selected for:
-- Precise angle control
-- Fast response time
-- Compatibility with the steering mechanism
-- Reliable operation during repeated turns
+The MG90S provides:
+- Precise steering angle control
+- High torque relative to its compact size
+- Fast response for quick direction changes
+- Durable metal gears for improved reliability during repeated testing
+- Familiarity from previous projects, reducing integration time
 
-<img width="350" alt="servo" src="IMAGE">
+<img width="1287" height="795" alt="servoimg" src="https://github.com/user-attachments/assets/c92c68c5-6e68-4848-8911-8e2b599aeef9" />
 
 ---
 
