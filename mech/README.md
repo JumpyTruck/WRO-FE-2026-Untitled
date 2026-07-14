@@ -13,7 +13,7 @@ IMAGE GOES HERE
 IMAGE GOES HERE
 
 ###### **1.3 Differential (Rear Wheels)** 
-We used a differential built out of metal pieces which allowed the rear wheels to turn at different speeds for smooth cornering. Printing our own gears using 3D printer would have made the gears weak and bad qualitd and using Lego pieces would have made the robots centre of gravity be off. This differential allows the robot's weight to be balanced.
+We used a differential built out of metal pieces which allowed the rear wheels to turn at different speeds for smooth cornering. Printing our own gears using 3D printer would have made the gears weak and bad quality and using Lego pieces would have made the robots centre of gravity be off. This differential allows the robot's weight to be balanced.
 IMAGE GOES HERE
 
 ###### **1.4 Dimensions Choice**
