@@ -4,10 +4,10 @@
 
 ###### **1.1 Wheel Choice**
 We chose Spike Prime wheels (56mm diameter, 14mm thickness) for their excellent grip and compactability on the WRO mat. Their size provides the ideal balance between speed, torque, and stability for our robot as they are neither not too large or small.
-IMAGE GOES HERE
+<img width="300" height="300" alt="spike_wheels" src="https://github.com/user-attachments/assets/60697281-a1b5-410f-a0e2-6c8a4380e2aa" />
 
 ###### **1.2 Steering System** 
-- **Previouslty** Last year we used a parallel beam steering (two beams linked at ends) steering system. However, it suffered from drifting during turns due to both wheels turning at the same radius.
+- **Previously** Last year we used a parallel beam steering (two beams linked at ends) steering system. However, it suffered from drifting during turns due to both wheels turning at the same radius.
 IMAGE GOES HERE
 - **Ackermann Steering:** Ackerman steering system was built to solve drifting.
 IMAGE GOES HERE
