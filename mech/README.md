@@ -45,7 +45,7 @@ A metal differential was used for the rear drivetrain to allow both wheels to ro
 
 This design was chosen because it provides smoother cornering and better durability compared to 3D printed gears, while maintaining a lower centre of gravity compared to LEGO-based alternatives.
 
-<img width="350" alt="differential" src="IMAGE">
+<img width="336" height="252" alt="IMG_2312" src="https://github.com/user-attachments/assets/91a28dd0-2991-4b22-a469-cf7e6f4bac3d" />
 
 ---
 
