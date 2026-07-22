@@ -61,7 +61,6 @@ void loop() {
     myservo.write(angle);
 
     // keep driving the motor only if we've been told to start.
-    // this line no longer starts the motor on its own.
     if (motorRunning) {
       move_motor(255, 1);
     }
