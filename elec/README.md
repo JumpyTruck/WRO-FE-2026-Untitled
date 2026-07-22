@@ -9,10 +9,10 @@ We use a **12V 37D metal gearmotor with an 11PPR encoder**, running at **510RPM*
 
 ---
 
-###### **1.2 Motor Driver: DRV8871**
-The **DRV8871** drives the DC motor with the current the ESP32 can't supply directly. It gives PWM-based speed control, forward/reverse direction control, and built-in overcurrent and thermal protection — all in a small enough package for our limited space.
+###### **1.2 Motor Driver: Adafruit DRV8871**
+The **Adafruit DRV8871** drives the DC motor with the current the Arduino Nano can't supply directly. It gives PWM-based speed control, forward/reverse direction control, and built-in overcurrent and thermal protection, all in a small enough package for our limited space.
 
-<img width="200" alt="motordriver" src="https://github.com/user-attachments/assets/bf276066-4841-47e8-8bfa-23230064cd28">
+<img width="200" alt="motordruiv" src="https://github.com/user-attachments/assets/2a387b91-c8b5-48e4-8d71-ee1e7a48a98d" />
 
 ---
 
