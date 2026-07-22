@@ -49,7 +49,7 @@ The **Raspberry Pi** is our main controller, handling camera input, object and l
 ###### **2.2 Motor Controller: ESP32**
 An **ESP32** acts as a dedicated motor controller, handling DC motor speed and servo steering, and receiving commands from the Pi over serial communication — keeping motor control isolated from delays caused by image processing.
 
-<img width="210" alt="esp32img" src="https://github.com/user-attachments/assets/75667778-47bf-4933-977f-898c77f49e07">
+<img width="220" alt="arduinonano" src="https://github.com/user-attachments/assets/e42be539-4e3a-4a02-aaf5-1eb4dc3bbcfe" />
 
 ---
 
